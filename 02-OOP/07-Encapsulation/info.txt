@@ -1,0 +1,12 @@
+Encapsulation
+
+Encapsulation = การรวมdata (instance Variables) และ behavior(Method)
+ที่ทำงานร่วมกับ data นั้นไว้ด้วยกันภายใน class 
+
+เราทำสิ่งนี้โดยการกำหนดให้ Instance Variables ส่วนใหญ่เป็น private 
+เพื่อป้องกันการเข้าถึงโดยตรงจากภายนอก และสร้าง public methods (ที่เรียกว่า getters และ setters)
+เพื่อควบคุมการเข้าถึงและแก้ไข data เหล่านั้น วิธีนี้ช่วยปกป้อง data ทำให้ class มีความยืดหยุ่น
+ในการเปลี่ยนแปลง implementation ภายใน โดยไม่กระทบส่วนอื่น และทำให้ผู้ใช้ class ทำงานง่ายขึ้น
+
+ถ้าไม่ใส่ public จะมีแค่ package เดียวกันเท่านั้นที่สามารถ access ได้
+ถ้ามมี public package ไหนก็สามารถเข้าถึงได้

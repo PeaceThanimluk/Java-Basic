@@ -1,0 +1,8 @@
+Inheritance คือกลไลที่ class หนึ่ง(เรียกว่า subclass) สามารถสืบทอดคุณสมบัติ
+และพฤติกรรมมาจากอีกclassหนึ่ง (เรียกว่า superclass) ทำให้เกิดความสัมพันธ์แบบ "IS-A"
+IS-A หมายถึง subclass เป็นชนิดหนึ่งของ superclass (ตัวอย่างเช่น Car IS-A Vechicle หรือ Dog IS-A Animal)
+จึงทำให้เราสามารถใช้วัตถุของ subclass แทนที่ตัวแปรชนิด superclass ได้
+Subclass จะได้รับ membes (variables และ method ที่เป็น non-private) ทั้งหมดของ superclass และสามารถเพิ่มคุณสมบัติ
+และพฤติกรรมใหม่ของตัวเอง หรือ override behavior ที่สืบทอดมาได้
+ประโยชน์หลักคือการใช้ code ซ้ำและการจัดระเบียบcode
+

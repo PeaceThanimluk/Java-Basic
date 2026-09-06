@@ -1,0 +1,17 @@
+Access Modifiers
+
+Access Modifiers ใน java ใช้สำหรับกำหนดขอบเขตการเข้าถึง (visibility)
+ของ class, constructor, instance variables และ method ซึ่งเป็นหัวใจสำคัญ
+ของหลักการ Encapsulation โดยช่วยให้เราสามารถควบคุมได้ว่าส่วนใดของโปรแกรมสามารถ
+เข้าถึงสมาชิกเหล่านั้นได้บ้าง
+
+1.Public สมาชิกที่ถูกประกาศเป็น public สามารถเข้าถึงได้จากทุกที่ ไม่ว่าจะอยู่ภายในClass เดียวกัน
+package เดียวกัน, package อื่น หรือแม้กระทั่ง subclass ใน package อื่น
+เป็น
+
+public static = ทุกคน / ทุก package สามารถเข้าถึงได้ เป็น global 
+static = ภายใน package ของ class เท่านั้นที่สามารถใช้ได้
+
+2.Private ใช้ได้แค่ภายใน class นอก class จะใช้ไม่ได้
+
+3.Protected ใช้ได้กับ class ร่วมกับ object
