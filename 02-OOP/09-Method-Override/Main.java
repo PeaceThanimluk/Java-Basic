@@ -39,6 +39,11 @@ class BaBy extends Human {
         System.out.println(getName() + " is crawling");
     }
 
+    @Override  //เป็นการบอก compiler ว่าจะ override 
+    public void Eat() {
+        System.out.println(getName() + " is Skibiding");
+    }
+
 }
 
 

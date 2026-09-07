@@ -30,6 +30,11 @@ class Dog extends Animal {
         System.out.println(getName() + " is barking");
     }
 
+    void Behavior() {
+        super.Eat(); //เราสามารถใช้ super กับ method ได้ ถ้าอยากเอาmethodของ class มาใช้งาน
+        System.out.println("and then slepping!");
+    }
+
 }
 
 
@@ -38,6 +43,6 @@ public class Main {
         Dog dog1 = new Dog("Lucky");
         dog1.Bark();
         dog1.Eat(); //เอา Method ของ Superclass มาใช้ได้
-        
+        dog1.Behavior();
     }    
 }

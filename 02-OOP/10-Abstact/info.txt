@@ -1,0 +1,10 @@
+Abstact class และ Method
+
+Abstact Class คือ class ที่ถูกประกาศด้วย abstact และไม่สามารถสร้างinstance ได้โดยตรง
+มักใช้เป็น superclass เพื่อให้ class อื่นมาสืบทอด มันสามาถมีทั้ง method ที่มี body(concrete methods)
+และ method ที่ไม่มี (abstact method)
+
+Abstact Method = Method ที่ประกาศด้วย abstact และไม่มี body ต้องอยู่ใน abstact class เท่านั้น
+Subclass ที่เป็น concrete class (ที่ไม่ใช่ abstact) จะต้อง override method ทั้งหมดที่สืบทอดมา
+
+Abstract มักสร้างเมื่อ Subclass มี Behavior ต่างกัน
